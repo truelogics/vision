@@ -1,18 +1,19 @@
 ---
 doc: PROJECTS
 audience: [human, agent]
-status: placeholder
+status: living
 owner: vision
-last_reviewed: 2026-07-30
+last_reviewed: 2026-08-03
 ---
 
 # Projects
 
-> **Status:** placeholder — index of initiatives and which repo owns them.
+> Index of initiatives and which repo owns them.
 
 | Project | Repo | Status | Notes |
 |---------|------|--------|-------|
-| AI Memory | [`ai-memory/`](../ai-memory/) | Kernel implemented (Milestones 1-7) | The OS kernel — index, search, graph, hybrid ranking, context assembly all working end-to-end. Deliberately not yet: public Go API, external-service collectors, HTTP API — see AI Review's findings |
-| AI Review | [`ai-review/`](../ai-review/) | Documentation only, by design | First consumer of AI Memory — a forcing function, not a product yet. Its `KERNEL_REQUIREMENTS.md` is AI Memory's next real backlog, derived from one concrete consumer instead of speculation |
-| Engineering brain | [`engineering/`](../engineering/) | Planning | Standards, RFCs, rules |
+| AI Memory | [`ai-memory/`](../ai-memory/) | v0.1.0-alpha, architecture frozen | The OS kernel — index, search, graph, hybrid ranking, context assembly, and a public Go SDK (`pkg/memory`) all working end-to-end. Governed by `engineering/KERNEL_POLICY.md`: no new feature without a real consumer requirement, an RFC, and an API-impact review |
+| AI Review | [`ai-review/`](../ai-review/) | Sprint 4 in progress | The Engineering Review Engine — the first product built on the kernel. `review .` runs end-to-end against a real Provider (Claude) or a deterministic `FakeProvider`; RFC-0001/0002/0003 define its contracts and runtime behavior |
+| review-benchmarks | [`review-benchmarks/`](../review-benchmarks/) | Data only, by design | Objective evaluation cases for AI Review — fixed diffs with a known-good expected review, so quality is judged against a number instead of an anecdote. No eval harness yet |
+| Engineering brain | [`engineering/`](../engineering/) | Living | Coding standards, RFC/ADR process, `KERNEL_POLICY.md`, `PRODUCT_DEVELOPMENT.md` |
 | Company roadmap | [`roadmap/`](../roadmap/) | Living | NOW / NEXT / BACKLOG |
