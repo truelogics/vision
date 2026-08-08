@@ -3,7 +3,7 @@ doc: VISION
 audience: [human, agent]
 status: placeholder
 owner: vision
-last_reviewed: 2026-07-30
+last_reviewed: 2026-08-08
 ---
 
 # Vision
@@ -25,3 +25,80 @@ _One or two sentences: the future state we're building toward._
 ## What we are not
 
 _Explicit non-goals so priorities stay sharp._
+
+## System Architecture
+
+The AI Engineering OS is composed of multiple independent projects with
+clearly defined responsibilities.
+
+```
+Vision
+  │
+  ▼
+Roadmap
+  │
+  ▼
+Engineering Standards
+  │
+  ▼
+AI Memory (Kernel)
+  │
+  ▼
+Consumers
+  ├── AI Review
+  ├── Claude Code (via MCP)
+  ├── GitHub (future)
+  ├── VS Code (future)
+  ├── Cursor (future)
+  └── Other Engineering Tools
+```
+
+### Responsibilities
+
+#### Vision
+
+Defines the long-term direction of the AI Engineering OS.
+
+#### Roadmap
+
+Tracks what we are building now, next, and later.
+
+#### Engineering
+
+Defines development process, RFCs, architecture standards, and
+engineering principles.
+
+#### AI Memory
+
+The engineering knowledge kernel.
+
+Responsible for:
+
+- engineering memory
+- indexing
+- retrieval
+- evidence
+- repository knowledge
+
+AI Memory never performs reasoning.
+
+#### Consumers
+
+Consumers use AI Memory to perform engineering tasks.
+
+Current:
+
+- AI Review
+
+Future:
+
+- Claude Code (via MCP)
+- GitHub App
+- VS Code
+- Cursor
+- CI
+- Future AI Engineering applications
+
+Each consumer owns its own reasoning.
+
+AI Memory provides engineering knowledge.
