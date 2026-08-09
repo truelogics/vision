@@ -46,7 +46,7 @@ AI Memory (Kernel)
   ▼
 Consumers
   ├── AI Review
-  ├── Claude Code (via MCP)
+  ├── engineering-mcp (Claude Code, and any MCP client)
   ├── GitHub (future)
   ├── VS Code (future)
   ├── Cursor (future)
@@ -89,10 +89,11 @@ Consumers use AI Memory to perform engineering tasks.
 Current:
 
 - AI Review
+- engineering-mcp — MCP transport; Claude Code reaches the kernel
+  through it
 
 Future:
 
-- Claude Code (via MCP)
 - GitHub App
 - VS Code
 - Cursor

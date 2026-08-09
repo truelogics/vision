@@ -18,7 +18,7 @@ last_reviewed: 2026-08-08
            (Engineering Knowledge Kernel)
                           │
         ┌─────────────────┼─────────────────┐
-    AI Review        Claude Code     Future Clients
+    AI Review    engineering-mcp    Future Clients
                           │
               Engineering Intelligence
                           │
@@ -44,6 +44,12 @@ Never performs reasoning.
 ### Consumers
 
 Consumers perform reasoning.
+
+Two exist today, and that is the point: AI Review (a program that
+reviews changes) and engineering-mcp (a transport that lets an AI client
+ask its own questions). They share no code and no shape. A kernel two
+unrelated consumers build on is a platform; a kernel one consumer builds
+on is an application with extra steps.
 
 Examples:
 
