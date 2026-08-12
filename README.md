@@ -31,7 +31,7 @@ Linux was built: start with a kernel, let everything else emerge around it.
 ```
 
 **Memory is the kernel.** Everything — review, planning, agents, standards
-enforcement — depends on it. [`ai-memory/`](../ai-memory/) starts as
+enforcement — depends on it. [`engineering-kernel/`](../engineering-kernel/) starts as
 *Engineering Memory*: store, organize, retrieve, and connect engineering
 knowledge (code, ADRs, PRs, standards, roadmap, incidents, runbooks). Version
 1 has no AI in it — it's a search and indexing problem before it's an LLM
@@ -43,7 +43,7 @@ once the kernel earns them. The OS emerges; it isn't decreed.
 Agents start every session with no memory, and humans lose context to
 scattered docs and tribal knowledge. The AI Engineering OS exists so intent
 (why, from `vision/`), priority (what's now, from `roadmap/`), standards (how,
-from `engineering/`), and memory (what's been decided, from `ai-memory/`) live
+from `engineering/`), and memory (what's been decided, from `engineering-kernel/`) live
 in one place both people and agents can read and trust — so every repo and
 agent decision can point back to a shared purpose instead of re-litigating
 it. Product priorities and engineering standards should follow from vision —
@@ -78,7 +78,7 @@ short, explicit, and linked from company `roadmap/` when priorities move.
 | [`vision/`](.) | Company north star — this repo |
 | [`roadmap/`](../roadmap/) | Company-wide priorities: now / next / backlog |
 | [`engineering/`](../engineering/) | Coding standards, architecture, RFCs, ADRs, rules |
-| [`ai-memory/`](../ai-memory/) | Engineering Memory — the kernel the OS is built outward from |
+| [`engineering-kernel/`](../engineering-kernel/) | Engineering Memory — the kernel the OS is built outward from |
 
 ## Map
 

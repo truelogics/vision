@@ -14,11 +14,11 @@ last_reviewed: 2026-08-08
         ┌─────────────────┼─────────────────┐
      Vision            Roadmap         Engineering
                           │
-                      AI Memory
+                      Engineering Kernel
            (Engineering Knowledge Kernel)
                           │
         ┌─────────────────┼─────────────────┐
-    AI Review    engineering-mcp    Future Clients
+    Engineering Review    engineering-mcp    Future Clients
                           │
               Engineering Intelligence
                           │
@@ -33,7 +33,7 @@ last_reviewed: 2026-08-08
 
 ## Principles
 
-### AI Memory
+### Engineering Kernel
 
 Provides engineering knowledge.
 
@@ -45,7 +45,7 @@ Never performs reasoning.
 
 Consumers perform reasoning.
 
-Two exist today, and that is the point: AI Review (a program that
+Two exist today, and that is the point: Engineering Review (a program that
 reviews changes) and engineering-mcp (a transport that lets an AI client
 ask its own questions). They share no code and no shape. A kernel two
 unrelated consumers build on is a platform; a kernel one consumer builds
@@ -53,7 +53,7 @@ on is an application with extra steps.
 
 Examples:
 
-- AI Review
+- Engineering Review
 - Claude Code
 - GitHub
 - VS Code

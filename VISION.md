@@ -41,11 +41,11 @@ Roadmap
 Engineering Standards
   │
   ▼
-AI Memory (Kernel)
+Engineering Kernel (Kernel)
   │
   ▼
 Consumers
-  ├── AI Review
+  ├── Engineering Review
   ├── engineering-mcp (Claude Code, and any MCP client)
   ├── GitHub (future)
   ├── VS Code (future)
@@ -68,7 +68,7 @@ Tracks what we are building now, next, and later.
 Defines development process, RFCs, architecture standards, and
 engineering principles.
 
-#### AI Memory
+#### Engineering Kernel
 
 The engineering knowledge kernel.
 
@@ -80,15 +80,15 @@ Responsible for:
 - evidence
 - repository knowledge
 
-AI Memory never performs reasoning.
+Engineering Kernel never performs reasoning.
 
 #### Consumers
 
-Consumers use AI Memory to perform engineering tasks.
+Consumers use Engineering Kernel to perform engineering tasks.
 
 Current:
 
-- AI Review
+- Engineering Review
 - engineering-mcp — MCP transport; Claude Code reaches the kernel
   through it
 
@@ -102,4 +102,4 @@ Future:
 
 Each consumer owns its own reasoning.
 
-AI Memory provides engineering knowledge.
+Engineering Kernel provides engineering knowledge.

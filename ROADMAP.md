@@ -13,7 +13,7 @@ last_reviewed: 2026-07-30
 
 ## Near term
 
-AI Memory MVP, engineering standards, and the RFC/ADR loop.
+Engineering Kernel MVP, engineering standards, and the RFC/ADR loop.
 
 ## Mid term
 
